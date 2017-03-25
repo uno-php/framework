@@ -1,0 +1,16 @@
+
+.idea/
+vendor/
+node_modules/
+npm-debug.log
+
+
+storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env
+
+

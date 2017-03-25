@@ -1,0 +1,25 @@
+{
+  "name": "uno/framework",
+  "description": "The Uno Framework.",
+  "keywords": ["framework", "uno"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.6.4",
+    "uno/core": "dev-master"
+  },
+
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/uno-php/core.git"
+  }],
+
+  "autoload": {
+
+    "psr-4": {
+      "App\\": "app/"
+    },
+
+    "files": ["app/helpers.php"]
+  }
+}
