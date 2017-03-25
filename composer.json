@@ -2,6 +2,13 @@
   "name": "uno-php/framework",
   "description": "The Uno Framework.",
   "keywords": ["framework", "uno"],
+  "authors": [
+    {
+      "name": "Damilola Ogunmoye",
+      "email": "dami@ogunmoye.com"
+    }
+  ],
+  "minimum-stability": "dev",
   "license": "MIT",
   "type": "project",
   "require": {
@@ -21,5 +28,7 @@
     },
 
     "files": ["app/helpers.php"]
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
