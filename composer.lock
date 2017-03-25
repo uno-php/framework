@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "376a2b338704db2167ebee46c019d2ee",
-    "content-hash": "2d32c7a2b9c647418947e38704c62cf2",
+    "hash": "e91501a2910d049fc9680f9f04162941",
+    "content-hash": "f4c66af78ff1a170907a6326800bb28c",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -479,12 +479,18 @@
             "time": "2017-03-22 15:41:51"
         },
         {
-            "name": "uno/core",
+            "name": "uno-php/core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "/Users/dammyammy/WebProjects/active/uno/packages/core",
-                "reference": "4da67ac2368c2bdea5720379558ded62ad9d8fef"
+                "url": "https://github.com/uno-php/core.git",
+                "reference": "36a3763993050e742a8f691daddf94c428cac9fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uno-php/core/zipball/36a3763993050e742a8f691daddf94c428cac9fb",
+                "reference": "36a3763993050e742a8f691daddf94c428cac9fb",
+                "shasum": ""
             },
             "require": {
                 "altorouter/altorouter": "^1.2",
@@ -510,9 +516,14 @@
             "description": "The Uno Framework.",
             "keywords": [
                 "framework",
-                "uno"
+                "uno",
+                "uno-php"
             ],
-            "time": "2017-03-24 20:52:10"
+            "support": {
+                "source": "https://github.com/uno-php/core/tree/master",
+                "issues": "https://github.com/uno-php/core/issues"
+            },
+            "time": "2017-03-25 11:22:55"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -569,7 +580,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "uno/core": 20
+        "uno-php/core": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
