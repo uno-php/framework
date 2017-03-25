@@ -22,6 +22,21 @@ The Uno framework has a few system requirements.
 
 ### Installation
 
+Via Git Clone
+
+`
+git clone https://github.com/uno-php/framework.git blog
+`
+
+`
+cd blog
+`
+
+`
+composer install
+`
+
+
 Via Composer Create-Project
 
 You may install Uno using the Composer create-project command in your terminal:
