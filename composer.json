@@ -1,12 +1,12 @@
 {
-  "name": "uno/framework",
+  "name": "uno-php/framework",
   "description": "The Uno Framework.",
   "keywords": ["framework", "uno"],
   "license": "MIT",
   "type": "project",
   "require": {
     "php": ">=5.6.4",
-    "uno/core": "dev-master"
+    "uno-php/core": "dev-master"
   },
 
   "repositories": [{
