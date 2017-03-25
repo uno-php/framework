@@ -27,7 +27,7 @@ Via Composer Create-Project
 You may install Uno using the Composer create-project command in your terminal:
 
 `
-composer create-project --prefer-dist uno/framework blog
+composer create-project --prefer-dist uno-php/framework blog
 `
 
 
