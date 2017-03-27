@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e91501a2910d049fc9680f9f04162941",
-    "content-hash": "f4c66af78ff1a170907a6326800bb28c",
+    "hash": "d0a6122c18cb2b6c0791ced829d8ce1e",
+    "content-hash": "8ed4fe82aa2d68e6af03678e68a27776",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -484,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uno-php/core.git",
-                "reference": "36a3763993050e742a8f691daddf94c428cac9fb"
+                "reference": "81cbe139df845dc6e33f8b01f14d2019565add05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uno-php/core/zipball/36a3763993050e742a8f691daddf94c428cac9fb",
-                "reference": "36a3763993050e742a8f691daddf94c428cac9fb",
+                "url": "https://api.github.com/repos/uno-php/core/zipball/81cbe139df845dc6e33f8b01f14d2019565add05",
+                "reference": "81cbe139df845dc6e33f8b01f14d2019565add05",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "source": "https://github.com/uno-php/core/tree/master",
                 "issues": "https://github.com/uno-php/core/issues"
             },
-            "time": "2017-03-25 11:22:55"
+            "time": "2017-03-27 17:41:45"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -578,11 +578,11 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "uno-php/core": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.4"
