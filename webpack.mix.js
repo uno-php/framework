@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+let CompressionPlugin = require("compression-webpack-plugin")
 
 /*
  |--------------------------------------------------------------------------
