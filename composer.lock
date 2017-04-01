@@ -484,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uno-php/core.git",
-                "reference": "81cbe139df845dc6e33f8b01f14d2019565add05"
+                "reference": "4c027ec1aa86f0b9ae6c362483cefd230ba2f750"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uno-php/core/zipball/81cbe139df845dc6e33f8b01f14d2019565add05",
-                "reference": "81cbe139df845dc6e33f8b01f14d2019565add05",
+                "url": "https://api.github.com/repos/uno-php/core/zipball/4c027ec1aa86f0b9ae6c362483cefd230ba2f750",
+                "reference": "4c027ec1aa86f0b9ae6c362483cefd230ba2f750",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "source": "https://github.com/uno-php/core/tree/master",
                 "issues": "https://github.com/uno-php/core/issues"
             },
-            "time": "2017-03-27 17:41:45"
+            "time": "2017-04-01 04:49:59"
         },
         {
             "name": "vlucas/phpdotenv",

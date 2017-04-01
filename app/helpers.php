@@ -6,3 +6,4 @@ if(!function_exists('pageNotFound')) {
         return view('errors/404');
     }
 }
+
