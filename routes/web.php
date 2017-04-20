@@ -1,5 +1,5 @@
 <?php
 
-return [
-    ['GET', '/', "PagesController@welcome", 'welcome'],
-];
+use App\Controllers\PagesController;
+
+$route->get('/', [new PagesController, 'welcome']);

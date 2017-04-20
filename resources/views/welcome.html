@@ -1,5 +1,8 @@
 {% extends "layouts/master.html" %}
 
+{% block title %} Uno Framework {% endblock %}
+
+
 {% block content %}
     <div class="container" id="app">
         <div class="uno-logo"></div>
@@ -7,6 +10,7 @@
         <div class="uno-content">
             <div class="logo"></div>
             <h1>UNO FRAMEWORK</h1>
+            <h6>Version: {{ version }}</h6>
             <p>Fork Uno framework on <a target="_blank" href="//github.com/uno-php/framework">Github <i class="fa fa-github-square"></i></a></p>
         </div>
 

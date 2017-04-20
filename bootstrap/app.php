@@ -1,26 +1,17 @@
 <?php
 
-
 /*
 |--------------------------------------------------------------------------
 | Bootstrap
 |--------------------------------------------------------------------------
 */
 
+define('UNO_PHP_START', microtime(true));
+
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use Uno\Core\Container;
-use Uno\Core\Router;
-use Uno\Core\ErrorHandler;
-use Uno\Core\EnvironmentVariables;
+use Uno\Core\App;
 
-(new EnvironmentVariables)->load();
+$app = new App(realpath(__DIR__ . '/../'));
 
-(new ErrorHandler)->handle();
-
-// Create new IoC Container instance
-$container = new Container();
-
-$container->loadDefaultBindings();
-
-(new Router)->process(routes_path('web.php'), "App\\Controllers\\");
+return $app;

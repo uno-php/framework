@@ -5,6 +5,8 @@ npm-debug.log
 _config.yml
 storage/
 public/**/*.gz
+core/
+composer.json.old2
 
 # Laravel 5 & Lumen specific
 public/storage
